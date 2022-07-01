@@ -1,0 +1,120 @@
+.HistoryBox{
+    padding: 10px;
+.ccd {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.ProfileInfo{
+    // border: 1px solid;
+    height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    .ChannelName{
+        width:auto;
+        // border:1px solid;
+        float: left;
+        margin: 0 0 0 10px;
+        font-size: 25px;
+    }
+
+}
+
+    .VideoList{
+        margin-top: 20px;
+        // border: 1px solid;
+
+        .VideoContainer{
+            // border:1px solid;
+            padding: 4px;
+            width: 70%;
+            // min-height: 200px;
+            height: auto;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            display:flex;
+            flex-wrap: wrap;
+
+
+            .container{
+                // width: 100%;
+                // border:4px solid;
+                margin-top: 4px;
+                display:flex;
+                border-radius: 8px;
+                padding:10px;
+                cursor: default;
+
+
+            .thumbnail{
+                // border:1px solid;
+                float: left;
+                // width: 30%;
+                // display:flex;
+                
+                :hover{
+                    opacity: 0.9;
+                    transition: .15s linear;
+                }
+
+                .previmg{
+                width: 100%;
+                border-radius: 8px;
+                }
+            }
+
+
+            .body{
+                // display:flex;
+
+                // border:1px solid;
+                margin-left:3%;
+                width: 67%;
+                float: right;
+                color: black;
+                height: auto;
+
+                .title1{
+                    text-decoration: none;
+                    // border:1px solid;
+                    overflow-wrap: break-word;
+                    font-size: 20px;
+                    p{
+                    margin-bottom: 5px;
+                    }
+
+                }
+                .title2{
+
+                    text-decoration: none;
+                    // border:1px solid;
+                    font-size: 15px;
+                    overflow-wrap: break-word;
+                    a:hover{
+                        color: #000;
+                    }
+
+                    .read-more-button{
+                        cursor: pointer;
+                        color:#333;
+                        // border:1px solid;
+                        // width: 0%;
+                      }
+                }
+            }
+        }
+        }
+        .container:hover{
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+            transition: .15s linear;
+
+        }
+        }
+    }
+    a{
+        color: black;
+
+    }

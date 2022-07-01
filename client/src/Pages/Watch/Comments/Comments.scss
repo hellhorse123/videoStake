@@ -1,0 +1,100 @@
+.CommentForm {
+  float: left;
+  // display: flex;
+  width: 100%;
+  // height: 100px;
+  // border: 5px solid ;
+  // margin-bottom: 110px;
+
+  .ProfileImg {
+    // width: 48px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+    background-color: #333;
+    // float: left;
+    margin-right: 20px;
+    // border:2px solid;
+
+    // .img {
+    //   display: block;
+    //   margin-left: auto;
+    //   margin-right: auto;
+    //   max-height: none;
+    //   max-width: 100%;
+    //   border-radius: none;
+    // }
+  }
+
+  .InputComment {
+    display: flex;
+    // float: left;
+    cursor: text;
+    padding-bottom: 4px;
+    width: calc(100% - 70px);
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    color: #444;
+    box-sizing: border-box;
+    border-bottom: 2px solid #333;
+    margin: 5px 20px;
+  }
+  .InputComment:focus {
+    border-bottom: 2px solid #FBBC05;
+    transition: 0.2s ease-in-out;
+  }
+  .ccd {
+    display: flex;
+    float: right;
+    margin-top: 5px;
+    // margin-right: 45px;
+    // display: none;
+  }
+}
+textarea {
+  resize: none;
+}
+textarea::-webkit-scrollbar {
+  width: 0;
+}
+
+.Comments {
+  margin-top: 30px;
+  // border:1px solid;
+  float: left;
+  width: 100%;
+  height: auto;
+
+  .CommentInfo {
+    float: left;
+    width: 100%;
+    // border:1px solid;
+    height: auto;
+    cursor: default;
+    min-height: 70px;
+    .ProfileImg{
+      margin-right: 20px;
+    }
+
+    .CommentText {
+      width: auto;
+      max-width: 90%;
+      // border:1px solid;
+      float: left;
+      overflow-wrap: break-word;
+      margin-bottom: 20px;
+      .CommentatorNick {
+        font-weight: 600;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.dob {
+  display: none;
+}

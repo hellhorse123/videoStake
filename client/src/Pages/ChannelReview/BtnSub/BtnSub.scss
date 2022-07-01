@@ -1,0 +1,32 @@
+.Sub {
+    float: right;
+    // margin:0;
+    margin-right: 10px;
+    border: 0;
+    background: #FBBC05;
+    border-radius: 3px;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    min-width:156px;
+  }
+  .Sub:hover {
+    color: #fff;
+    /* border:2px solid black; */
+    box-shadow: 0 0 0 2px #FBBC05 inset, 0 0 0 4px white inset;
+    transition: 0.2s linear;
+  }
+  .SubYes {
+    min-width:156px;
+    float: right;
+    // margin:0;
+    margin-right: 10px;
+    border: 0;
+    background: #ddd;
+    border-radius: 3px;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+  }

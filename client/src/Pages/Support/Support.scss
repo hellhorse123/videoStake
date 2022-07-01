@@ -1,0 +1,172 @@
+
+
+.SupportPage{
+    .navbar{
+        z-index: -1;
+        .search{
+            display: none;
+        }
+        .InOut{
+            // margin-left: 10%;
+            display: none;
+        }
+    }
+    .Max{
+        margin-top:0;
+        box-shadow: none;
+        .Box{
+            padding-top: 40px;
+            box-shadow:none;
+            // border: 1px solid;
+            display: flex;
+            .image{
+                position: absolute;
+                // background-position: center;
+                // background-size: cover;
+                // background-repeat: no-repeat;
+                margin: 0 auto;
+                left:50%;
+                transform: translate(-45%, 0);
+                width: 64%;
+                opacity: 0.8;
+                // transform: scale(-1, 1)
+                // z-index: -2;
+            }
+            .LeftBox{
+                max-width:80% ;
+                // border: 1px solid;
+                margin: auto;
+                z-index: 1;
+                // opacity: 95%;
+                padding: 50px;
+                border-radius:10px;
+
+                background-color:  rgba(162, 158, 241, 0.9);
+
+
+                p{
+                    margin-bottom: 0;
+                }
+
+                .download-form{
+                    input{
+                        margin-top: 10px;
+                    }
+                    textarea {
+                        margin-top: 10px;
+                    }
+                    .CheckAndSend{
+                            // width:50%;
+                        // display: flex;
+                            .checkbox {
+                                display: flex;
+                                margin: 10px 0 0 0;
+                                line-height: 22px;
+                                cursor: pointer;
+                                float: left;
+                                width: 50%;
+                                font-size: 12px;
+                                .politics{
+                                    // display: block;
+                                    flex-shrink:0;
+                                }
+                                .yep{
+                                    // border: 1px solid;
+                                    flex-shrink:1;
+                                    line-height: 1;
+                                }
+
+                            }
+                            .checkbox input[type=checkbox] {
+                                -webkit-appearance: none;
+                                -moz-appearance: none;
+                                display: inline-block;
+                                width: 22px;
+                                height: 22px;
+                                margin: 0 5px 0 0;
+                                // margin-right: 10px;
+                                padding: 0;
+                                vertical-align: top;
+                                outline: none;
+                                transition: background 0.3s ease;
+                                background:#fff ;
+                                border: 1px solid;
+                                border-radius: 4px;
+                                cursor: pointer;
+
+                            }
+                            /* Checked */
+                            .checkbox input[type=checkbox]:checked {
+                                background:#f7d849 ;
+                            }
+                            /* Focus */
+                            .focused input[type=checkbox] {
+                                box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+                            }
+                            /* Hover */
+                            .checkbox input[type=checkbox]:hover {
+                                filter: brightness(110%);
+                            }
+                            /* Active */
+                            .checkbox input[type=checkbox]:active {
+                                filter: brightness(80%);
+                            }
+
+                        .btnS{
+                            padding:10px 24px;
+                            background: #f7d849;
+                            color:#fff;
+                            border:none;
+                            float: right;
+                            // margin:0 auto;
+                            display: flex;
+                            /* flex-direction:column; */
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 0;
+                            border-radius: 8px;
+                            text-transform:uppercase;
+                            font-weight: 600;
+                            letter-spacing: 1px;
+                            }
+                            .btnS:disabled{
+                                background:#ccc;
+                            }
+                        
+                    }
+
+                }
+
+            }
+            .RightBox{
+                max-width:80% ;
+                // border: 1px solid;
+                margin: auto;
+                background: #EFEFEF;
+                border-radius: 8px;
+                padding: 10px;
+                z-index: 1;
+                // opacity: 90%;
+                padding: 50px;
+                border-radius:10px;
+                background-color: rgba(247, 222, 113, 0.9);
+
+                .FileBox{
+                    // border: 1px solid;
+                    display: flex;
+                    margin-bottom: 10px;
+                    .fa-file-pdf-o{
+                        margin-right: 10px;
+                        font-size: 44px;
+
+                    }
+
+                }
+            }
+        }
+    }
+
+p{
+    font-size: 22px;
+}
+}

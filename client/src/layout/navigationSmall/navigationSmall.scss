@@ -1,0 +1,100 @@
+.logoWrapper {
+  text-align: center;
+}
+
+.navigationSmall {
+  position: fixed;
+  top: 4.5rem;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 60px;
+  background: #e8e8e8;
+  z-index: 999;
+
+ a {
+  color: #606060;
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  font-weight: 300;
+  font-size: 24px;
+  padding:8px 16px;
+
+  .text{
+    margin-top: 5px;
+  }
+}
+ a:hover{
+  box-shadow: 0px 0px 5px 2px rgba(156, 140, 213, 0.2) inset;
+  transition: .1s ease;
+}
+
+
+
+.firstnav{
+  box-shadow:  0 2px rgba(255, 255, 255, 1);
+}
+.lastnav{
+  position:absolute;
+  bottom:4.5rem;
+  box-shadow:  0 -2px rgba(255, 255, 255, 1);
+}
+
+
+.NavLink{
+  padding-top: 2px;
+  border:1px solid;
+}
+
+
+.Feed:before {
+  content: "\f015";
+  font-family: FontAwesome;
+  font-size: 30px;
+  color: #333;
+  // padding-right: 20px;
+  // padding-left: 30px;
+}
+.Cab:before {
+  content: "\f2bd";
+  font-family: FontAwesome;
+  font-size: 30px;
+  color: #333;
+  // padding-right: 20px;
+  // padding-left: 30px;
+}
+.History:before {
+  content: "\f1da";
+  font-family: FontAwesome;
+  font-size: 30px;
+  color: #333;
+  // padding-right: 20px;
+  // padding-left: 30px;
+}
+.Favorites:before {
+  content: "\f005";
+  font-family: FontAwesome;
+  font-size: 30px;
+  color: #333;
+  // padding-right: 20px;
+  // padding-left: 30px;
+}
+.Subs:before {
+  content: "\f058";
+  font-family: FontAwesome;
+  font-size: 30px;
+  color: #333;
+  // padding-right: 20px;
+  // padding-left: 30px;
+}
+.Support:before {
+  content: "\f013";
+  font-family: FontAwesome;
+  font-size: 30px;
+  color: #333;
+  // padding-right: 20px;
+  // padding-left: 30px;
+}
+
+}

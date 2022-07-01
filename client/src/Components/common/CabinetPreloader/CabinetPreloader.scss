@@ -1,0 +1,66 @@
+
+.BoxCabPr{
+
+.ProfileInfo{
+    display: flex;
+    margin: 20px auto;
+    // border: 1px solid ;
+    max-width: 70%;
+
+    .ProfileImg{
+        display: flex;
+        width:68px;
+        height: 68px;
+        background: linear-gradient(265deg, #ead883, #a48fe8);
+        background-size: 400% 400%;
+        animation: AnimationName 4s ease infinite;
+        margin-right: 50px;
+  
+        @keyframes AnimationName {
+          0% {
+            background-position: 0% 51%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 51%;
+          }
+        }
+    }
+
+    .ChannelName{
+    display: flex;
+    width:90%;
+        height:68px;
+        // border:1px solid;
+        border-radius: 8px;
+        background: linear-gradient(265deg, #ead883, #a48fe8);
+        background-size: 400% 400%;
+        animation: AnimationName 4s ease infinite;
+    
+        @keyframes AnimationName {
+          0% {
+            background-position: 0% 51%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 51%;
+          }
+        }
+    }
+
+}
+
+.MyVideos{
+    display: flex;
+    box-shadow: 0 -2px #e8e8e8;
+    // border: 1px solid;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-left: 20%;
+
+                }
+            }

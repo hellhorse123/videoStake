@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1760px){
+    
+
+  .navigation{
+
+    .text{
+      display: none;
+    }
+
+
+    .Feed:before{
+      display: initial;
+      padding-left:0px;
+      padding-right:0px;
+      margin: 0 auto;
+    }
+    .Cab:before {
+      display: initial;
+      padding-left:0px;
+      padding-right:0px;
+      margin: 0 auto;
+    }
+    .History:before {
+      display: initial;
+      padding-left:0px;
+      padding-right:0px;
+      margin: 0 auto;
+    }
+    .Favorites:before {
+      display: initial;
+      padding-left:0px;
+      padding-right:0px;
+      margin: 0 auto;
+    }
+    .Subs:before {
+      display: initial;
+      padding-left:0px;
+      padding-right:0px;
+      margin: 0 auto;
+    }
+    .Support:before {
+      display: initial;
+      padding-left:0px;
+      padding-right:0px;
+      margin: 0 auto;
+    }
+
+  }
+}

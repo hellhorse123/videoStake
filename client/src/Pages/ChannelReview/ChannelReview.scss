@@ -1,0 +1,178 @@
+.ChannelReviewBox {
+    padding:10px;
+    cursor: default;
+
+
+.ccd {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.ProfileInfo{
+    // border: 1px solid;
+    height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    .Sub {
+        float: right;
+        // margin:0;
+        margin-right: 10px;
+        border: 0;
+        background: #FBBC05;
+        border-radius: 3px;
+        padding: 10px 30px;
+        cursor: pointer;
+        color: #fff;
+        font-weight: bold;
+        min-width:156px;
+      }
+      .Sub:hover {
+        color: #fff;
+        /* border:2px solid black; */
+        box-shadow: 0 0 0 2px #FBBC05 inset, 0 0 0 4px white inset;
+        transition: 0.2s linear;
+      }
+      .SubYes {
+        min-width:156px;
+        float: right;
+        // margin:0;
+        margin-right: 10px;
+        border: 0;
+        background: #ddd;
+        border-radius: 3px;
+        padding: 10px 30px;
+        cursor: pointer;
+        color: #333;
+        font-weight: bold;
+      }
+
+    .ChannelName{
+        width:auto;
+        // border:1px solid;
+        float: left;
+        margin: 0 0 0 10px;
+        font-size: 25px;
+        p{
+            font-size: 16px;
+        }
+    }
+
+}
+// .State{
+//     // border: 1px solid;
+//     width: 80%;
+//     margin: 0 auto;
+//     margin-top: 10px;
+//     // text-align: center;
+
+//     min-height:60px;
+// }
+
+.MyVideos{
+    box-shadow: 0 -2px #e8e8e8;
+        // border: 1px solid;
+        margin-top: 20px;
+
+    .heading{
+        font-size: 20px;
+        text-align: center;
+        // width: 80%;
+        // border: 1px solid;
+        margin:10px 0;
+    }
+}
+    .VideoList{
+        margin-top: 20px;
+        // border: 1px solid;
+
+        .VideoContainer{
+            // border:1px solid;
+            padding: 4px;
+            // width: 70%;
+            // min-height: 200px;
+            height: auto;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            display:flex;
+            flex-wrap: wrap;
+
+
+                .container{
+                    // width: 100%;
+                    // border:4px solid;
+                    margin-top: 4px;
+                    display:flex;
+
+                    border-radius: 8px;
+                    padding:10px;
+
+
+                .thumbnail{
+                    // border:1px solid;
+                    float: left;
+                    // width: 100%;
+                    // display:flex;
+
+
+                    .previmg{
+                    // width: 100%;
+                    border-radius: 8px;
+                    
+                }
+
+
+                }
+
+
+                .body{
+                    // display:flex;
+
+                    // border:1px solid;
+                    margin-left:3%;
+                    width: 67%;
+                    float: right;
+                    color: black;
+                    height: auto;
+
+                    .title1{
+                        text-decoration: none;
+                        // border:1px solid;
+                        overflow-wrap: break-word;
+                        font-size: 20px;
+                        p{
+                        margin-bottom: 0px;
+                        }
+
+                    }
+                    .title2{
+                        text-decoration: none;
+                        // border:1px solid;
+                        font-size: 15px;
+                        overflow-wrap: break-word;
+
+                    }
+                }
+            }
+
+        }
+
+        .container:hover{
+            box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+        }
+        }
+    }
+
+    .rmb{
+        margin-top: 15px;
+        bottom:0;
+    }
+    .read-more-button{
+        cursor: pointer;
+        color:#333;
+        // top: 5px;
+        // border:1px solid;
+        // width: 0%;
+      }

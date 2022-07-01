@@ -1,0 +1,97 @@
+
+
+.Max{
+
+  box-shadow: 0px 12px 6px -10px rgba(0, 0, 0, 0.2) inset;
+    // box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.2) inset;
+
+    .WatchBox{
+      // margin-left: 100px;
+      padding-left: 100px;
+      // padding-right: -60px;
+      // margin-right: -60px;
+    }
+    .rwc{
+    //   margin-left: 100px;
+      padding-left: 40px;
+    }
+
+  .Block{
+      // border: 1px solid;
+      padding: 10px 10px 10px 10px; 
+  }
+
+  .PlayerContainer {
+
+
+      @media screen and (max-width: 1016px) {
+        padding: 0 45px;
+      }
+
+      @media screen and (max-width: 905px) {
+        padding: 0 15px;
+      }
+
+      @media screen and (max-width: 805px) {
+        padding: 0;
+      }
+
+      .player_wrap {
+        position: relative;
+        padding-bottom: 56.25%;
+        max-height: auto;
+        height: 0;
+        overflow: hidden;
+
+
+        .img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          // max-height: none;
+          // max-width: 100%;
+          width: 40px;
+          height: 40px;
+          border-radius: none;
+          border: 3px solid;
+      }
+    }
+
+  }
+
+}
+
+
+
+
+.vjs-tech{
+    /* padding: 30px; */
+    border-radius: 4px;
+    // height:650px;
+    // padding-bottom: 56px;
+}
+
+@media screen and (max-width: 1016px) {
+
+  .col-sm-8{
+    min-width:100%;
+    max-width:100%;
+  }
+  .col-sm-4{
+    min-width:100%;
+    max-width:100%;
+    // margin: 0 auto;
+    box-shadow: 0 -2px #e8e8e8;
+    // border: 1px solid ;
+
+  }
+.Max{
+  .WatchBox{
+    padding-left: 60px;
+  }
+  .rwc{
+    padding-left: 70px;
+
+  }
+}
+}

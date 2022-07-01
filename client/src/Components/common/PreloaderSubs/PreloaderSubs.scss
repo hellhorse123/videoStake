@@ -1,0 +1,171 @@
+
+.PreloaderSubs{
+.container {
+    // display: flex;
+    // flex-direction: row;
+    // border: 1px solid;
+    // height: 140px;
+    width: calc(100% / (6) - 16px);
+
+    @media screen and (max-width: 1140px) {
+      width: calc(100% / (4) - 16px);
+    }
+  
+    @media screen and (max-width: 890px) {
+      width: calc(100% / (2) - 16px);
+    }
+  
+    @media screen and (max-width: 520px) {
+      width: calc(100% - 16px);
+    }
+    .thumbnail {
+    // border: 1px solid;
+    border-radius: 8px;
+    float: left;
+    padding-bottom: 45%;
+
+
+
+        // position: relative;
+        // cursor: pointer;
+        margin-right: 8px;
+        // width: 250px;
+        background: linear-gradient(315deg, #f7d849, #5840aa);
+        background-size: 400% 400%;
+        animation: AnimationName 4s ease infinite;
+        @media screen and (max-width: 1140px) {
+          height:120px;
+        }
+    
+        @media screen and (max-width: 890px) {
+          height:100px;
+
+        }
+    
+        @media screen and (max-width: 520px) {
+          height:80px;
+
+        }
+    
+        @-webkit-keyframes AnimationName {
+          0% {
+            background-position: 1% 0%;
+          }
+          50% {
+            background-position: 99% 100%;
+          }
+          100% {
+            background-position: 1% 0%;
+          }
+        }
+        @-moz-keyframes AnimationName {
+          0% {
+            background-position: 1% 0%;
+          }
+          50% {
+            background-position: 99% 100%;
+          }
+          100% {
+            background-position: 1% 0%;
+          }
+        }
+        @keyframes AnimationName {
+          0% {
+            background-position: 1% 0%;
+          }
+          50% {
+            background-position: 99% 100%;
+          }
+          100% {
+            background-position: 1% 0%;
+          }
+        }
+    
+      }
+
+  .skeleton {
+    width: 100%;
+    float: left;
+    margin-left: 5px;
+
+    .img{
+      width:48px;
+      height: 48px;
+      border-radius:50%;
+      float: left;
+      margin-top: 10px;
+      background: linear-gradient(265deg, #ead883, #a48fe8);
+      background-size: 400% 400%;
+
+      animation: AnimationName 4s ease infinite;
+      @keyframes AnimationName {
+        0% {
+          background-position: 0% 51%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 51%;
+        }
+      }
+    }
+
+    &__txt1 {
+      margin: 15px 60px;
+      width: 65%;
+      height: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      background: linear-gradient(265deg, #ead883, #a48fe8);
+      background-size: 400% 400%;
+
+      animation: AnimationName 4s ease infinite;
+      @keyframes AnimationName {
+        0% {
+          background-position: 0% 51%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 51%;
+        }
+      }
+    }
+  
+    &__txt2 {
+      margin: 15px 60px;
+
+      border-radius: 4px;
+      height: 10px;
+      width: 45%;
+      background: linear-gradient(265deg, #ead883, #a48fe8);
+      background-size: 400% 400%;
+      animation: AnimationName 4s ease infinite;
+
+      @keyframes AnimationName {
+        0% {
+          background-position: 0% 51%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 51%;
+        }
+      }
+    }
+  }
+  }
+
+}
+.Nav{
+background:#e8e8e8;
+height:95vh;
+}
+.Header{
+background:#e8e8e8;
+  height: 4.5rem;
+
+}
